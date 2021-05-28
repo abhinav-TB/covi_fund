@@ -5,7 +5,8 @@ contract Covifund {
     uint public uCount=0;
 
     mapping (uint => User) public users;
-
+    mapping (uint => Org) public orgs;
+    
     struct User {
         uint id;
         uint orgc;
