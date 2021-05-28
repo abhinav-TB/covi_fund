@@ -6,7 +6,7 @@ contract Covifund {
 
     mapping (uint => User) public users;
     mapping (uint => Org) public orgs;
-    
+
     struct User {
         uint id;
         uint orgc;
@@ -14,7 +14,14 @@ contract Covifund {
         string[] titles;
         uint[] funds;
     }
-    
+    struct Org {
+        uint id;
+        uint funds;
+        string title;
+        string category;
+        string description;
+        address payable org_address;
+    }
 
     function initializeUser() public {
         uCount++;
