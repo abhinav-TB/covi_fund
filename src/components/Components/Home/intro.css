@@ -1,0 +1,137 @@
+#fh5co-features {
+    padding: 7em 0;
+  }
+  #fh5co-feature-product {
+    padding: 7em 0;
+  }
+  .fh5co-section-gray {
+    background: rgba(0, 0, 0, 0.04);
+  }
+  
+#fh5co-features {
+    padding: 4em 0;
+  }
+  #fh5co-features .feature-left {
+    margin-bottom: 0;
+  }
+  @media screen and (max-width: 992px) {
+    #fh5co-features .feature-left {
+      margin-bottom: 30px;
+    }
+  }
+  #fh5co-features .feature-left .icon i {
+    color: #d9d9d9 !important;
+  }
+  #fh5co-features .feature-left .icon {
+    float: left;
+    text-align: center;
+    width: 15%;
+  }
+  @media screen and (max-width: 992px) {
+    #fh5co-features .feature-left .icon {
+      width: 10%;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    #fh5co-features .feature-left .icon {
+      width: 15%;
+    }
+  }
+  #fh5co-features .feature-left .feature-copy {
+    float: right;
+    width: 80%;
+  }
+  @media screen and (max-width: 992px) {
+    #fh5co-features .feature-left .feature-copy {
+      width: 90%;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    #fh5co-features .feature-left .feature-copy {
+      width: 85%;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    #fh5co-features .feature-left .feature-copy {
+      width: 80%;
+    }
+  }
+  #fh5co-features .feature-left h3 {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  #fh5co-features .feature-left p {
+    font-size: 15px;
+  }
+  #fh5co-features .feature-left p:last-child {
+    margin-bottom: 0;
+  }
+  
+  #fh5co-feature-product {
+    padding: 7em 0;
+  }
+  
+  #fh5co-services, #fh5co-about, #fh5co-contact {
+    padding: 7em 0;
+  }
+  @media screen and (max-width: 768px) {
+    #fh5co-services, #fh5co-about, #fh5co-contact {
+      padding: 4em 0;
+    }
+  }
+  
+  #fh5co-services .fh5co-number {
+    font-size: 30px;
+    color: #ff5722;
+    position: relative;
+    padding-top: 10px;
+    font-style: italic;
+    display: -moz-inline-stack;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+  }
+  #fh5co-services .fh5co-number:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 3px;
+    top: 0;
+    left: 0;
+    background: #ff5722;
+  }
+  #fh5co-services .fh5co-icon {
+    margin-bottom: 30px;
+    margin-top: 50px;
+    position: relative;
+    display: -moz-inline-stack;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+  }
+  @media screen and (max-width: 768px) {
+    #fh5co-services .fh5co-icon {
+      margin-top: 0px;
+      float: none;
+    }
+  }
+  #fh5co-services .fh5co-icon i {
+    font-size: 200px;
+    color: #ff5722;
+  }
+  @media screen and (max-width: 768px) {
+    #fh5co-services .fh5co-icon i {
+      font-size: 100px;
+    }
+  }
+  
+
+  @media screen and (max-width: 768px) {
+    #fh5co-features {
+      padding: 4em 0;
+    }
+  }
+.intro{
+    font-size: 17px;
+}
