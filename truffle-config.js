@@ -13,7 +13,7 @@ module.exports = {
       network_id: "*" 
     },
     matic: {
-      provider: () => new HDWalletProvider(mnemonic, "https://rpc-mumbai.maticvigil.com"),
+      provider: () => new HDWalletProvider(mnemonic, " https://rpc-mumbai.matic.today"),
       network_id: 80001,
       confirmations: 2,
       timeoutBlocks: 200,
