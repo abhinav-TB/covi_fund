@@ -2,6 +2,10 @@ import React, {Component} from 'react';
 import Avatar from '@material-ui/core/Avatar';
 import Button from '@material-ui/core/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';
+import Navbar from './Home/navbar';
+import Footer from './Home/footer';
+import Typography from '@material-ui/core/Typography';
+import Container from '@material-ui/core/Container';
 
 class Register extends Component {
     render() {
