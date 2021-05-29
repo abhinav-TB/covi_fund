@@ -1,0 +1,13 @@
+.back {
+    font-size: larger;
+    background-image: url(../img/intro1.jpg);
+    height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.center{
+    margin-top:140px;
+    margin-right:100px;
+    font-weight:200;
+}
