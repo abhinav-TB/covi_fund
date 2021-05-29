@@ -15,7 +15,7 @@ export default function HomePage() {
           <div className="fh5co-cover text-center"  style={{ backgroundImage: `url(${background})`}}>
             <div className="desc animate-box">
               <h2><strong>Covifund</strong></h2>
-              <h2><strong>Support and Build an Inclusive Society </strong></h2>
+              <h2><strong>Support and Eliminate Covid</strong></h2>
               <span><a className="btn btn-primary btn-lg donate" href="/register">Get Started</a></span>
             </div>
           </div>
