@@ -14,7 +14,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const portis = new Portis('ad8c37c0-13cf-4d29-939e-221cf2ca9ead', 'maticMumbai');
 const web3 = new Web3(portis.provider);
-
+window.web3 = web3;
 class App extends Component {
   async componentWillMount() {
     await this.loadBlockchainData()
