@@ -33,3 +33,12 @@ You will also need an Ethereum wallet like [Portis](https://www.portis.io/) .
 
     $ truffle migrate --network matic
     $ npm start
+
+### Built With
+
+ - Polygon(Matic)
+ - Portis 
+ - React
+ - Node js
+
+
