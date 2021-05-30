@@ -28,16 +28,11 @@ You will also need an Ethereum wallet like [Portis](https://www.portis.io/) .
     $ npm install -g truffle@5.3.0
     $ npm install
 
-- Create a .secret file in the root directory with the account mnenomics
+
 ### Start the DApp
 
     $ truffle migrate --network matic
     $ npm start
 
-### Built With
 
- - Polygon(Matic)
- - Portis 
- - React
- - Node js
-
+![mainpic](pic.png?raw=true)
