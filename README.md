@@ -18,16 +18,20 @@ You will also need an Ethereum wallet like [Portis](https://www.portis.io/) .
 ### Clone the repo
 
 $ git clone https://github.com/abhinav-TB/covi_fund
+<br/>
 $ cd covi_fund
 
 
 ### Install dependencies
 
 $ npm install -g truffle@5.3.0
+<br/>
 $ npm install -g ganache-cli
+<br/>
 $ npm install
+<br/>
 
-- Select localhost:8545 in your Metamask wallet and import accounts from Ganache.
+Select localhost:8545 in your Metamask wallet and import accounts from Ganache.
 
 ### Start the DApp
 
